@@ -1,0 +1,107 @@
+body{
+    font-family: prometo,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #EDEDED;
+}
+
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3{
+    color: #83351C;
+}
+p{
+    color: #666;
+}
+a{
+    text-decoration: none !important;
+}
+
+nav{
+    height: 50px;
+    .navbar-brand img{
+        height: 45px;
+        padding: 5px 0px;
+    }
+}
+
+.nav-link{
+    color: #83351C !important;
+        padding: 5px 10px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        &:hover{
+            color: #FF6D18 !important;
+        }
+}
+
+.home-biblioteca{
+
+    .box-busca{
+        background-image: url('../images/bg-busca.jpg');
+        background-size: cover;
+        div{
+            padding: 80px 0px 120px 0px;
+        }
+    }
+
+    .busca-home{
+        border: none;
+    }
+    input{
+        padding: 20px 20px;
+        border: none;
+        border-radius: 3px 0px 0px 3px;
+    }
+    button{
+        padding: 0px 20px 0px 20px;
+        border-radius: 0px 3px 3px 0px;
+        color: #666;
+        border: none;
+        background-color: #fff;
+        &:hover{
+            background-color: #EDEDED;
+        }
+        img{
+            padding: 0px 5px 0px 0px;
+        }
+    }
+
+    .marcas{
+        padding: 80px 0px;
+        .letras{
+            li{
+                cursor: pointer;
+                &:hover{
+                    color: #83351C;
+                }
+            }
+        }
+        .categorias{
+            .marcas-botoes{
+                margin: 6px 0 50px 0;
+            }
+            .marcas-botoes li{
+                width: 16%;
+                float: left;
+                background-color: #FF6D18;
+                padding: 11px 20px;
+                margin: 3px 3px;
+                text-align: left;
+                border-radius: 3px;
+                color: #fff;
+                overflow: hidden;
+                &:hover{
+                    background-color:#562519;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+}
